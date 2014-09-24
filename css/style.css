@@ -78,7 +78,7 @@ img{max-width:100%;border:0 none;}
 #header{height:90px;background:url("/images/header.png") repeat-x scroll 0 0 #333333;}
 #header-bottom{background:url("/images/header-bottom.png") no-repeat scroll center top #3c4143;height:400px;margin:-7px 0 -410px;}
 img.site-logo, .site-title {max-height:70px;padding:5px 0;float:left;}
-.site-title { padding: 20px 0; font-size: 35px; }
+.site-title { padding: 20px 0; font-size: 35px; color: #ccc; }
 #header-content{width:930px;margin:auto;}
 .site-title-hidden{display:none;}
 #content{float:left;width:70%;}
@@ -339,3 +339,42 @@ h1,  h2,  h3,  h4,  h5,  h6 { page-break-after:avoid; }
 ul,  ol,  dl { page-break-before:avoid; }
 }
 
+.social-menu {
+  float: right;
+  margin-top: 1.5em;
+  list-style: none;
+}
+
+.social-menu li {
+  border: none;
+  line-height: normal;
+  padding: 0 0.1em;
+  float: left;
+}
+
+.social-menu a {
+  padding: 0;
+  vertical-align: middle;
+  border-radius: 30px;
+  display: inline-block;
+}
+
+.social-menu img {
+  max-height: 40px;
+  vertical-align: middle;
+}
+
+.social-menu .facebook:hover,
+.social-menu li:hover .facebook {
+  background-color: #3B5998;
+}
+
+.social-menu .twitter:hover,
+.social-menu li:hover .twitter {
+  background-color: #c0deed;
+}
+
+.social-menu .youtube:hover,
+.social-menu li:hover .youtube {
+  background-color: #cd201f;
+}
