@@ -78,8 +78,9 @@ img{max-width:100%;border:0 none;}
 #header{height:90px;background:url("/images/header.png") repeat-x scroll 0 0 #333333;}
 #header-bottom{background:url("/images/header-bottom.png") no-repeat scroll center top #3c4143;height:400px;margin:-7px 0 -410px;}
 img.site-logo, .site-title {max-height:70px;padding:5px 0;float:left;}
-.site-title { padding: 20px 0; font-size: 35px; color: #ccc; }
+.site-title { padding: 20px 0; font-size: 35px; color: #ccc; margin-left: 120px; margin-top: 2px; }
 #header-content{width:930px;margin:auto;}
+#header-content .logo { position: absolute; top: 10px; }
 .site-title-hidden{display:none;}
 #content{float:left;width:70%;}
 #content-full{width:930px;}
